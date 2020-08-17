@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "areas",
+  "info": {
+    "name": "area"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "alias": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    },
+    "isOnline": {
+      "type": "boolean"
+    }
+  }
+}

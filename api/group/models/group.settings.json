@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groups",
+  "info": {
+    "name": "group"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "alias": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

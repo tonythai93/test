@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gateways",
+  "info": {
+    "name": "gateway"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "alias": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "isOnline": {
+      "type": "boolean"
+    }
+  }
+}
